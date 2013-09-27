@@ -4,3 +4,12 @@ layout: default
 
 	<h1>Dinosaurs!</h1>
 	<p>Dinosaurs are super rockin'!</p>
+
+<h2>Carnivores</h2>
+	<ul>
+	{% for dino in site.pages %}	
+		{% if dino.category == "carnivore" %}
+		<li>{{dino.name}}</li>
+		{% endif %}
+	{% endfor %}
+	</ul>	
