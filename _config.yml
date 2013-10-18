@@ -1,7 +1,3 @@
-# Redcarpet is a Markdown processor
-# It's the thing that converts Markdown to HTML
-# GitHub uses Redcarpet for conversion so we want to remain consistent
 markdown: redcarpet
-# The folder our website is hosted in
-#Everything that comes after http://thomasjbradley.github.io
 baseurl: /dinosaurs
+exclude: ['README.md']
